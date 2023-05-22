@@ -1,0 +1,117 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1020px;
+    margin: 0 auto;
+    background-image: url(https://pbs.twimg.com/media/FZEJh9HXgAAEYGP.jpg:large);
+    color: #fc0f0fe3;
+}
+
+body.modo-escuro{
+    background-image: url(file:///C:/Users/Thiago/Downloads/15360324-mariokartrainbowroadthingpicture_xl.webp);
+    color: #1eff00;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    
+}
+
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+}
+
+header .logo{
+    width: 70px;
+}
+
+header .imagem-botao{
+    width: 40px;
+}
+
+header .logo:hover,
+header .imagem-botao:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+main .cartao-mariokart:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+main{
+    padding: 25px;
+}
+
+main .mariokart{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .cartao-mariokart{
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    transition: 0.2s ease-in-out;
+    
+
+}
+
+main .cartao-mariokart .informacoes{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    
+}
+
+main .cartao-mariokart .informacoes span{
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+main .cartao-mariokart .gif{
+    width: 90px;
+    height: 90px;
+}
+
+main .cartao-mariokart .tipos{
+    display: flex;
+    gap: 15px;
+}
+
+main .cartao-mariokart .tipo{
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.Player1{
+    border: 1px solid #000000;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+.Player2{
+    border: 1px solid #000000;
+    border-radius: 6px;
+}
+
+main .descricao{
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px; 
+}
