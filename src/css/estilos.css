@@ -7,8 +7,8 @@ body{
 }
 
 body.modo-escuro{
-    background-image: url(file:///C:/Users/Thiago/Downloads/15360324-mariokartrainbowroadthingpicture_xl.webp);
-    color: #1eff00;
+    background-image: url(https://pbs.twimg.com/media/E9vFHMvXEAAr93m?format=jpg&name=large);
+    color: #1ce002;
 }
 
 header{
@@ -41,7 +41,7 @@ header .imagem-botao:hover{
 main .cartao-mariokart:hover{
     transform: scale(1.05);
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(206, 243, 248);
 }
 
 main{
